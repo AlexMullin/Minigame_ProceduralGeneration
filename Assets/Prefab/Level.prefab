@@ -45,8 +45,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyObject: {fileID: 474995466859436954, guid: a47d91dc88a0f194b9a61924454f0c3b, type: 3}
   goalObject: {fileID: 3570593529999412143, guid: 4fe22dd92b8f7044787815f40feef610, type: 3}
+  obstacles:
+  - {fileID: 5234196140953784523, guid: 8a5cb1a65785e54419fd809e6bcfbe27, type: 3}
+  - {fileID: 3389380606885473354, guid: f60f75c2838612645b52e45f356f14e7, type: 3}
   manager: {fileID: 0}
-  obstacles: {fileID: 0}
   bounds: {fileID: 0}
-  gridX: 16
-  gridZ: 9
+  shiftSpeed: 5
+  currentPhase: 0
